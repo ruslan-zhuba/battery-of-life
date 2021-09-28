@@ -1,0 +1,13 @@
+
+:root {
+    --font-color: #141414;
+    --main-bg-color: #FEFDFF;
+    --main-border-color: #57737A;
+    --main-bad-feel: #B80C09;
+    --main-good-feel: #63C132;
+  }
+
+html, body {
+    margin: 0;
+    background-color: var(--main-bg-color);
+}
