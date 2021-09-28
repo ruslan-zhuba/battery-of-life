@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="./src/main.js"></script>
-    <link rel="stylesheet" href="./src/main.css">
-</head>
-<body>
-    <div class="main"></div>
-</body>
+    <link rel="stylesheet" href="./src/main.css" />
+  </head>
+  <body>
+    <div class="main">
+        <div class="canvas">
+            <svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+                <!-- Example of a polygon with the default fill -->
+                <polygon points="0,100 50,25 50,75 100,0" />
+              
+                <!-- Example of the same polygon shape with stroke and no fill -->
+                <polygon class="color-animation" points="100,100 150,25 150,75 200,0"
+                          fill="none" stroke="black" />
+              </svg>
+        </div>
+    </div>
+  </body>
 </html>
